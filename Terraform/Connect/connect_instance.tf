@@ -1,9 +1,36 @@
 resource "aws_connect_instance" "song" {
-  identity_management_type          = "CONNECT_MANAGED"
-  inbound_calls_enabled             = true
-  instance_alias                    = "song-connect"
-  outbound_calls_enabled            = true
-  contact_lens_enabled              = false
-  contact_flow_logs_enabled         = true
+  identity_management_type         = "CONNECT_MANAGED"
+  inbound_calls_enabled            = true
+  instance_alias                   = "song-connect"
+  outbound_calls_enabled           = true
+  contact_lens_enabled             = false
+  contact_flow_logs_enabled        = true
   auto_resolve_best_voices_enabled = true
+}
+
+resource "aws_connect_instance_storage_config" "example" {
+  instance_id   = aws_connect_instance.song.id
+  resource_type = "CHAT_TRANSCRIPTS"
+
+  storage_config {
+    s3_config {
+      bucket_name   = aws_s3_bucket.transcripts.id
+      bucket_prefix = "transcripts"
+    }
+    storage_type = "S3"
+  }
+}
+
+
+resource "aws_connect_instance_storage_config" "example" {
+  instance_id   = aws_connect_instance.song.id
+  resource_type = "CALL_RECORDINGS"
+
+  storage_config {
+    s3_config {
+      bucket_name   = aws_s3_bucket.transcripts.id
+      bucket_prefix = "recordings"
+    }
+    storage_type = "S3"
+  }
 }
