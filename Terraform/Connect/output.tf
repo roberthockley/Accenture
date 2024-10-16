@@ -5,3 +5,7 @@ output "connect" {
 output "hours" {
     value = aws_connect_hours_of_operation.song
 }
+
+output "queue" {
+    value = aws_connect_queue.sales
+}
