@@ -1,5 +1,5 @@
 resource "aws_connect_queue" "sales" {
-    depends_on = [ aws_connect_phone_number.song, aws_connect_hours_of_operation.song ]
+  #depends_on = [ aws_connect_phone_number.song, aws_connect_hours_of_operation.song ]
   instance_id           = aws_connect_instance.song.id
   name                  = "Demo Sales"
   description           = "Demo Sales"
