@@ -8,7 +8,7 @@ resource "aws_connect_instance" "song" {
   auto_resolve_best_voices_enabled = true
 }
 
-resource "aws_connect_instance_storage_config" "example" {
+resource "aws_connect_instance_storage_config" "transcripts" {
   instance_id   = aws_connect_instance.song.id
   resource_type = "CHAT_TRANSCRIPTS"
 
@@ -22,7 +22,7 @@ resource "aws_connect_instance_storage_config" "example" {
 }
 
 
-resource "aws_connect_instance_storage_config" "example" {
+resource "aws_connect_instance_storage_config" "recordings" {
   instance_id   = aws_connect_instance.song.id
   resource_type = "CALL_RECORDINGS"
 
