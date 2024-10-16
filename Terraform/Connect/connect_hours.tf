@@ -2,7 +2,7 @@ resource "aws_connect_hours_of_operation" "song" {
   instance_id = aws_connect_instance.song.id
   name        = "Office Hours"
   description = "Demo office hours"
-  time_zone   = "EST"
+  time_zone   = "SGT"
 
   config {
     day = "MONDAY"
