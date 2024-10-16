@@ -61,3 +61,16 @@ resource "aws_connect_instance_storage_config" "attachments" {
     storage_type = "S3"
   }
 }
+
+resource "aws_connect_instance_storage_config" "screen" {
+  instance_id   = aws_connect_instance.song.id
+  resource_type = "SCREEN_RECORDINGS"
+
+  storage_config {
+    s3_config {
+      bucket_name   = aws_s3_bucket.transcripts.id
+      bucket_prefix = "screen_recordings"
+    }
+    storage_type = "S3"
+  }
+}
