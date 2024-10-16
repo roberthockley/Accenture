@@ -87,3 +87,14 @@ resource "aws_connect_instance_storage_config" "evaluations" {
     storage_type = "S3"
   }
 }
+
+resource "aws_qconnect_domain" "song_q_domain" {
+  name        = "song-q-domain"
+  description = "Amazon Q domain for Song Connect instance"
+  
+  kms_key_arn = aws_kms_key.q.arn
+  
+  server_side_encryption_configuration {
+    kms_key_arn = aws_kms_key.q.arn
+  }
+}
