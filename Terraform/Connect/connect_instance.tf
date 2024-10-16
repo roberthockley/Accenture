@@ -34,3 +34,30 @@ resource "aws_connect_instance_storage_config" "recordings" {
     storage_type = "S3"
   }
 }
+
+resource "aws_connect_instance_storage_config" "reports" {
+  instance_id   = aws_connect_instance.song.id
+  resource_type = "SCHEDULED_REPORTS"
+
+  storage_config {
+    s3_config {
+      bucket_name   = aws_s3_bucket.transcripts.id
+      bucket_prefix = "reports"
+    }
+    storage_type = "S3"
+  }
+}
+
+
+resource "aws_connect_instance_storage_config" "trace" {
+  instance_id   = aws_connect_instance.song.id
+  resource_type = "CONTACT_TRACE_RECORDS"
+
+  storage_config {
+    s3_config {
+      bucket_name   = aws_s3_bucket.transcripts.id
+      bucket_prefix = "traces"
+    }
+    storage_type = "S3"
+  }
+}
