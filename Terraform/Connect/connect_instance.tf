@@ -49,14 +49,14 @@ resource "aws_connect_instance_storage_config" "reports" {
 }
 
 
-resource "aws_connect_instance_storage_config" "trace" {
+resource "aws_connect_instance_storage_config" "attachments" {
   instance_id   = aws_connect_instance.song.id
-  resource_type = "CONTACT_TRACE_RECORDS"
+  resource_type = "ATTACHMENTS"
 
   storage_config {
     s3_config {
       bucket_name   = aws_s3_bucket.transcripts.id
-      bucket_prefix = "traces"
+      bucket_prefix = "attachments"
     }
     storage_type = "S3"
   }
