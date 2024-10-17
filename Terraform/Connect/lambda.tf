@@ -23,7 +23,7 @@ resource "aws_lambda_function" "lambda_outages" {
   role          = aws_iam_role.iam_role_lambda_ssm.arn
   handler       = "index.handler"
   publish       = true
-  layers        = [aws_lambda_layer_version.lambda_layer_ssm.arn, ws_lambda_layer_version.lambda_layer_connect.arn] 
+  layers        = [aws_lambda_layer_version.lambda_layer_ssm.arn, aws_lambda_layer_version.lambda_layer_connect.arn] 
   runtime     = "nodejs20.x"
   memory_size = "128"
   timeout     = "30"
