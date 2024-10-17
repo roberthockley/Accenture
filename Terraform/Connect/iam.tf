@@ -19,3 +19,8 @@ resource "aws_iam_role_policy_attachment" "lambda_ssm" {
   role       = aws_iam_role.iam_role_lambda_ssm.name
   policy_arn = "arn:aws:iam::aws:policy/AmazonSSMFullAccess"
 }
+
+resource "aws_iam_role_policy_attachment" "lambda_connect" {
+  role       = aws_iam_role.iam_role_lambda_ssm.name
+  policy_arn = "arn:aws:iam::aws:policy/AmazonConnect_FullAccess"
+}

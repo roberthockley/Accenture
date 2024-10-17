@@ -9,6 +9,12 @@ resource "aws_lambda_layer_version" "lambda_layer_ssm" {
   compatible_runtimes = ["nodejs20.x"]
 }
 
+resource "aws_lambda_layer_version" "lambda_layer_connect" {
+  filename            = "connect_layer.zip"
+  layer_name          = "connect"
+  compatible_runtimes = ["nodejs20.x"]
+}
+
 resource "aws_lambda_function" "lambda_outages" {
   # If the file is not in the current working directory you will need to include a
   # path.module in the filename.
@@ -17,7 +23,7 @@ resource "aws_lambda_function" "lambda_outages" {
   role          = aws_iam_role.iam_role_lambda_ssm.arn
   handler       = "index.handler"
   publish       = true
-  layers        = [aws_lambda_layer_version.lambda_layer_ssm.arn] 
+  layers        = [aws_lambda_layer_version.lambda_layer_ssm.arn, ws_lambda_layer_version.lambda_layer_connect.arn] 
   runtime     = "nodejs20.x"
   memory_size = "128"
   timeout     = "30"
