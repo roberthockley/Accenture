@@ -85,7 +85,7 @@ resource "aws_connect_contact_flow" "new_flow" {
     },
     {
       "Parameters": {
-        "QueueId": "${aws_connect_queue.sales.queue_id}"
+        "QueueId": "${aws_connect_queue.sales.arn}"
       },
       "Identifier": "9271dae1-f525-4127-a10d-de1f1818c47f",
       "Type": "UpdateContactTargetQueue",
