@@ -16,8 +16,7 @@ resource "aws_lambda_function" "lambda_outages" {
   role          = var.input.iam_role_lambda_outages
   handler       = "index.handler"
   publish       = true
-  layers        = [var.input.lambda_layer_ssm] #[var.input.lambda_layer_call_service, var.lambda_layers.lambda_insights]
-  #source_code_hash = data.archive_file.lambda.output_base64sha256
+  layers        = [aws_lambda_layer_version.lambda_layer_ssm.arn] 
   runtime     = "nodejs20.x"
   memory_size = "128"
   timeout     = "30"
