@@ -9,3 +9,6 @@ output "hours" {
 output "queue" {
     value = aws_connect_queue.sales
 }
+output "test" {
+    value = aws_connect_queue.sales.queue_id
+}
