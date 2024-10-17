@@ -39,11 +39,11 @@ resource "aws_connect_contact_flow" "new_flow" {
         },
         "parameters": {
           "QueueId": {
-            "displayName": "BasicQueue"
+            "displayName": "${aws_connect_queue.sales.name}"
           }
         },
         "queue": {
-          "text": "BasicQueue"
+          "text": "${aws_connect_queue.sales.name}"
         }
       },
       "69a3836f-2aad-41c9-bd60-c14644639d3c": {
