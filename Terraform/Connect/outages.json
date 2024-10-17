@@ -1,4 +1,25 @@
 {
     "outage": true,
-    "users": [{"username":"rhockley","main":"+6586115961","alt":"5555555"}]
+    "users": [
+        {
+            "username": "Robert",
+            "main": "+6586115961",
+            "alt": "+655555555"
+        },
+        {
+            "username": "Nadia",
+            "main": "+6512345678",
+            "alt": "+655555554"
+        },
+        {
+            "username": "Kee_Weil",
+            "main": "+6523456789",
+            "alt": "+655555553"
+        },
+        {
+            "username": "Alvina",
+            "main": "+6501234567",
+            "alt": "+655555552"
+        }
+    ]
 }
