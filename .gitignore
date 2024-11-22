@@ -1,3 +1,6 @@
 **/node_modules/
 **/.terraform/
 **/.terraform.lock.hcl
+/Layer/ffmpeg/
+**/.DS_Store
+*/.DS_Store

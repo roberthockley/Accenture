@@ -32,6 +32,7 @@ resource "aws_lambda_function" "lambda_outages" {
   }
   environment {
     variables = {
+      connect = "${aws_connect_instance.song.instance_id}"
     }
   }
 }
