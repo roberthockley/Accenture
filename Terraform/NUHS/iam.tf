@@ -29,3 +29,8 @@ resource "aws_iam_role_policy_attachment" "lambda_s3" {
   role       = aws_iam_role.iam_role_lambda_ssm.name
   policy_arn = "arn:aws:iam::aws:policy/AmazonS3FullAccess"
 }
+
+resource "aws_iam_role_policy_attachment" "lambda_logs" {
+  role       = aws_iam_role.iam_role_lambda_ssm.name
+  policy_arn = "arn:aws:iam::aws:policy/CloudWatchLogsFullAccess"
+}
