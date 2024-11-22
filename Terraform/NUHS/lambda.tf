@@ -30,7 +30,7 @@ resource "aws_lambda_function" "lambda_transcribe" {
   }
 }
 
-resource "aws_lambda_permission" "allow_s3_to_invoke_lambda" {
+resource "aws_lambda_permission" "allow_s3_to_invoke_lambda_transcribe" {
   statement_id  = "AllowExecutionFromS3Bucket"
   action        = "lambda:InvokeFunction"
   function_name = aws_lambda_function.lambda_transcribe.function_name
@@ -66,7 +66,7 @@ resource "aws_lambda_function" "lambda_comprehend" {
   }
 }
 
-resource "aws_lambda_permission" "allow_s3_to_invoke_lambda" {
+resource "aws_lambda_permission" "allow_s3_to_invoke_lambda_comprehend" {
   statement_id  = "AllowExecutionFromS3Bucket"
   action        = "lambda:InvokeFunction"
   function_name = aws_lambda_function.lambda_comprehend.function_name
