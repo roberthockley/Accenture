@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.741.0",
+    "@aws-sdk/client-connect": "^3.741.0",
+    "@aws-sdk/client-connect-contact-lens": "^3.741.0"
+  }
+}

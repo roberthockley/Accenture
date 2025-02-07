@@ -1,0 +1,3002 @@
+{
+    "AccountId": "117134819170",
+    "Categories": {
+        "MatchedCategories": [],
+        "MatchedDetails": {}
+    },
+    "Channel": "VOICE",
+    "ContentMetadata": {
+        "Output": "Raw"
+    },
+    "ConversationCharacteristics": {
+        "ContactSummary": {
+            "PostContactSummary": {
+                "Content": "The customer and agent discussed the possibility of implementing a call summarization feature. The agent explained that the current contact lens technology could potentially be used for this purpose, but they would need to evaluate the accuracy of the transcription first. The agent suggested exploring other options like using Hugging Face models if the accuracy is not satisfactory. The customer and agent agreed to further investigate the approaches to enhance the accuracy and make the solution production-ready, including integrating knowledge from the customer's website and FAQs. They decided to have a follow-up discussion with more details on the approach and the effort required."
+            }
+        },
+        "Interruptions": {
+            "InterruptionsByInterrupter": {
+                "AGENT": [
+                    {
+                        "BeginOffsetMillis": 267895,
+                        "DurationMillis": 2800,
+                        "EndOffsetMillis": 270695
+                    },
+                    {
+                        "BeginOffsetMillis": 278405,
+                        "DurationMillis": 4570,
+                        "EndOffsetMillis": 282975
+                    },
+                    {
+                        "BeginOffsetMillis": 368405,
+                        "DurationMillis": 2230,
+                        "EndOffsetMillis": 370635
+                    },
+                    {
+                        "BeginOffsetMillis": 561965,
+                        "DurationMillis": 3610,
+                        "EndOffsetMillis": 565575
+                    },
+                    {
+                        "BeginOffsetMillis": 716225,
+                        "DurationMillis": 2370,
+                        "EndOffsetMillis": 718595
+                    }
+                ],
+                "CUSTOMER": [
+                    {
+                        "BeginOffsetMillis": 37785,
+                        "DurationMillis": 2850,
+                        "EndOffsetMillis": 40635
+                    },
+                    {
+                        "BeginOffsetMillis": 71985,
+                        "DurationMillis": 7010,
+                        "EndOffsetMillis": 78995
+                    },
+                    {
+                        "BeginOffsetMillis": 251065,
+                        "DurationMillis": 2250,
+                        "EndOffsetMillis": 253315
+                    },
+                    {
+                        "BeginOffsetMillis": 354725,
+                        "DurationMillis": 3220,
+                        "EndOffsetMillis": 357945
+                    },
+                    {
+                        "BeginOffsetMillis": 397105,
+                        "DurationMillis": 5260,
+                        "EndOffsetMillis": 402365
+                    },
+                    {
+                        "BeginOffsetMillis": 418805,
+                        "DurationMillis": 2030,
+                        "EndOffsetMillis": 420835
+                    },
+                    {
+                        "BeginOffsetMillis": 457015,
+                        "DurationMillis": 2700,
+                        "EndOffsetMillis": 459715
+                    },
+                    {
+                        "BeginOffsetMillis": 501205,
+                        "DurationMillis": 7190,
+                        "EndOffsetMillis": 508395
+                    },
+                    {
+                        "BeginOffsetMillis": 558245,
+                        "DurationMillis": 3160,
+                        "EndOffsetMillis": 561405
+                    }
+                ]
+            },
+            "TotalCount": 14,
+            "TotalTimeMillis": 51249
+        },
+        "NonTalkTime": {
+            "Instances": [
+                {
+                    "BeginOffsetMillis": 212865,
+                    "DurationMillis": 5780,
+                    "EndOffsetMillis": 218645
+                },
+                {
+                    "BeginOffsetMillis": 274435,
+                    "DurationMillis": 3870,
+                    "EndOffsetMillis": 278305
+                }
+            ],
+            "TotalTimeMillis": 9650
+        },
+        "Sentiment": {
+            "OverallSentiment": {
+                "AGENT": 0.9,
+                "CUSTOMER": 0.1
+            },
+            "SentimentByPeriod": {
+                "QUARTER": {
+                    "AGENT": [
+                        {
+                            "BeginOffsetMillis": 0,
+                            "EndOffsetMillis": 185703,
+                            "Score": 0
+                        },
+                        {
+                            "BeginOffsetMillis": 185703,
+                            "EndOffsetMillis": 371407,
+                            "Score": 1.1
+                        },
+                        {
+                            "BeginOffsetMillis": 371407,
+                            "EndOffsetMillis": 557111,
+                            "Score": 0.5
+                        },
+                        {
+                            "BeginOffsetMillis": 557111,
+                            "EndOffsetMillis": 742815,
+                            "Score": 2.4
+                        }
+                    ],
+                    "CUSTOMER": [
+                        {
+                            "BeginOffsetMillis": 0,
+                            "EndOffsetMillis": 185381,
+                            "Score": 0.1
+                        },
+                        {
+                            "BeginOffsetMillis": 185381,
+                            "EndOffsetMillis": 370762,
+                            "Score": 0.3
+                        },
+                        {
+                            "BeginOffsetMillis": 370762,
+                            "EndOffsetMillis": 556143,
+                            "Score": -0.3
+                        },
+                        {
+                            "BeginOffsetMillis": 556143,
+                            "EndOffsetMillis": 741525,
+                            "Score": 0.3
+                        }
+                    ]
+                }
+            }
+        },
+        "TalkSpeed": {
+            "DetailsByParticipant": {
+                "AGENT": {
+                    "AverageWordsPerMinute": 171
+                },
+                "CUSTOMER": {
+                    "AverageWordsPerMinute": 166
+                }
+            }
+        },
+        "TalkTime": {
+            "DetailsByParticipant": {
+                "AGENT": {
+                    "TotalTimeMillis": 414608
+                },
+                "CUSTOMER": {
+                    "TotalTimeMillis": 345699
+                }
+            },
+            "TotalTimeMillis": 760307
+        },
+        "TotalConversationDurationMillis": 742815
+    },
+    "CustomerMetadata": {
+        "InputS3Uri": "s3://amazon-connect-9d5e3735e2e8c/connect/accenture-song/CallRecordings/2025/01/24/cb452d4c-f866-4115-8076-99692171785c_20250124T06:18_UTC.wav",
+        "ContactId": "cb452d4c-f866-4115-8076-99692171785c",
+        "InstanceId": "225c7617-4c04-434e-b574-ae5036197e2f"
+    },
+    "CustomModels": [],
+    "JobStatus": "COMPLETED",
+    "LanguageCode": "en-US",
+    "Participants": [
+        {
+            "ParticipantId": "CUSTOMER",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "ParticipantId": "AGENT",
+            "ParticipantRole": "AGENT"
+        }
+    ],
+    "Transcript": [
+        {
+            "BeginOffsetMillis": 55,
+            "Content": "OK.",
+            "EndOffsetMillis": 65,
+            "Id": "64eba160-fff6-4e66-a4db-d9e68484fcc6",
+            "LoudnessScore": [
+                67.06
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 2935,
+            "Content": "Hello.",
+            "EndOffsetMillis": 2945,
+            "Id": "8e1785cb-c90a-4575-b6d3-1c9cd9d09463",
+            "LoudnessScore": [
+                68.76
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 3765,
+            "Content": "Hi Praveen.",
+            "EndOffsetMillis": 4715,
+            "Id": "86158efe-9896-4fcc-aa6c-25a9f47490ae",
+            "LoudnessScore": [
+                79.98,
+                86.95
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 5685,
+            "Content": "Hey, how are you?",
+            "EndOffsetMillis": 6875,
+            "Id": "a1cacbdd-7436-457a-822b-5f869fa7b53d",
+            "LoudnessScore": [
+                77,
+                82.34
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 6735,
+            "Content": "Uh, once again.",
+            "EndOffsetMillis": 8205,
+            "Id": "8c8e35bd-1329-4dd6-a20b-2cc6c1d09e5b",
+            "LoudnessScore": [
+                81.14,
+                81.35,
+                79.22
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 9845,
+            "Content": "Sure, sure, sure.",
+            "EndOffsetMillis": 10715,
+            "Id": "55a7a7e4-e630-4be2-b3d4-2baeb31e6468",
+            "LoudnessScore": [
+                67.71,
+                76.46
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 12405,
+            "Content": "I hear other noises in the background, so.",
+            "EndOffsetMillis": 14365,
+            "Id": "e2f30847-8e06-4626-b6da-111e6359d5b3",
+            "LoudnessScore": [
+                80.82,
+                80.9,
+                76.17
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 13595,
+            "Content": "OK, you can you still hear me?",
+            "EndOffsetMillis": 15015,
+            "Id": "4f60dcb7-b106-4193-94b3-ff1380a3db05",
+            "LoudnessScore": [
+                79.59,
+                86.04,
+                81.53
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 14965,
+            "Content": "I can still hear you, yeah.",
+            "EndOffsetMillis": 16175,
+            "Id": "b0267ac0-19df-4e1e-b7be-dc6d1e40d82c",
+            "LoudnessScore": [
+                76.17,
+                80.22,
+                77.93
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 15765,
+            "Content": "Yeah.",
+            "EndOffsetMillis": 15975,
+            "Id": "463ee937-4295-488c-acc2-1c1420aa1e7f",
+            "LoudnessScore": [
+                81.53
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 17035,
+            "Content": "You must be in the office.",
+            "EndOffsetMillis": 18225,
+            "Id": "b6054dc9-8a5a-48b4-89cb-c13c2137f925",
+            "LoudnessScore": [
+                82.42,
+                78.1
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 17645,
+            "Content": "OK, super.",
+            "EndOffsetMillis": 18685,
+            "Id": "d0eb7ebd-3ad9-4071-9ccc-00c87236007c",
+            "LoudnessScore": [
+                80.11,
+                79.52
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 19925,
+            "Content": "Yes, yes, I, yeah.",
+            "EndOffsetMillis": 21155,
+            "Id": "52c9a417-f286-45c4-93f0-cf8adb6d7dc4",
+            "LoudnessScore": [
+                80.69,
+                80.21,
+                71.33
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 21525,
+            "Content": "Oh, perfect, perfect. Yeah, so I thought I would just do a, uh, a real-time transcription. So really what that really means is, um, while we're talking here, I thought, let's take a look and see how quick the transcription comes and how accurate the summary is.",
+            "EndOffsetMillis": 40635,
+            "Id": "c0c57e7a-619f-4cf7-904c-817eed904788",
+            "LoudnessScore": [
+                82.32,
+                79.01,
+                81.7,
+                80.58,
+                78.09,
+                76.7,
+                75.38,
+                79.02,
+                79.15,
+                82.92,
+                80.44,
+                76.51,
+                78.74,
+                77.73,
+                79.16,
+                81.64,
+                80.72,
+                78.72,
+                79.53,
+                77.5
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 23185,
+            "Content": "It",
+            "EndOffsetMillis": 23195,
+            "Id": "e5571107-5a6b-4085-b2fa-c6bd3909e11e",
+            "LoudnessScore": [
+                64.18
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 28965,
+            "Content": "Mm",
+            "EndOffsetMillis": 29565,
+            "Id": "3e950cb5-bd06-4f0e-9f98-5eca60c6f343",
+            "LoudnessScore": [
+                80.36,
+                80.08
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 34465,
+            "Content": "And.",
+            "EndOffsetMillis": 34475,
+            "Id": "f24aba66-d78b-4443-9da0-54e1868fad2d",
+            "LoudnessScore": [
+                75.13
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 37785,
+            "Content": "so it's kind of like OK.",
+            "EndOffsetMillis": 43185,
+            "Id": "83e0278e-2ece-4fe2-ac89-c781f2ce9ee4",
+            "LoudnessScore": [
+                62.97,
+                68.03,
+                67.19,
+                71.14,
+                72.91,
+                78.42,
+                84.45
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 43815,
+            "Content": "OK.",
+            "EndOffsetMillis": 44685,
+            "Id": "a281aeb7-dcc7-4ce6-a135-8d23ccb6b86f",
+            "LoudnessScore": [
+                70.67,
+                82.42
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 43975,
+            "Content": "So, my question, right, um, OK. When we want to do this, so have they already started on it or they haven't.",
+            "EndOffsetMillis": 53505,
+            "Id": "52fe99aa-b6de-439c-95ab-24787962f73f",
+            "LoudnessScore": [
+                84.45,
+                87.77,
+                84.17,
+                81.16,
+                83.85,
+                86.42,
+                85.06,
+                84.95,
+                86.24,
+                82.94,
+                79.76
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 54015,
+            "Content": "Do the summarization uh using Geni.",
+            "EndOffsetMillis": 57285,
+            "Id": "fa1057c8-0bd3-4e53-bd1f-fc29c80e135d",
+            "LoudnessScore": [
+                82.73,
+                80.25,
+                81.38,
+                79.92
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 54065,
+            "Content": "So",
+            "EndOffsetMillis": 54795,
+            "Id": "7f2ff92f-90c2-4803-9ef1-242103a01e51",
+            "LoudnessScore": [
+                80.76
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 55545,
+            "Content": "No, no, summarization is summarization is not really part of of the SOW.",
+            "EndOffsetMillis": 61675,
+            "Id": "b52ce109-3206-48a6-9b0f-3e4b5197fde1",
+            "LoudnessScore": [
+                85.49,
+                84.99,
+                82.94,
+                82.47,
+                79.6,
+                77.12,
+                74.35
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 58325,
+            "Content": "Oh",
+            "EndOffsetMillis": 58335,
+            "Id": "54e19fc4-bbed-4cdf-8534-0ee52b893657",
+            "LoudnessScore": [
+                62.24
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 59925,
+            "Content": "I",
+            "EndOffsetMillis": 59935,
+            "Id": "38314e5a-e581-4b7f-9462-2a05525de13e",
+            "LoudnessScore": [
+                55.86
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 61155,
+            "Content": "Right.",
+            "EndOffsetMillis": 61165,
+            "Id": "22b7fb56-b842-445d-b995-148a1813b0ec",
+            "LoudnessScore": [
+                71.19
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 62605,
+            "Content": "Um",
+            "EndOffsetMillis": 63285,
+            "Id": "8d423c4d-4b56-45b3-9f81-a09bda4d49d1",
+            "LoudnessScore": [
+                80.49,
+                78.49
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 64125,
+            "Content": "But they do already have contact lens enabled.",
+            "EndOffsetMillis": 67115,
+            "Id": "45f4839d-2305-4669-862e-d713df8ff002",
+            "LoudnessScore": [
+                85.44,
+                85.38,
+                81.55,
+                84
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 65845,
+            "Content": "So it doesn't.",
+            "EndOffsetMillis": 66225,
+            "Id": "24942674-0ed7-4f9b-a875-47f6525e7de2",
+            "LoudnessScore": [
+                75.13,
+                75.96
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 67805,
+            "Content": "So, if we wanted to enable summarization for contact lens. It really is like a 3-second job. It, it is, uh, the screenshot that I sent you.",
+            "EndOffsetMillis": 78995,
+            "Id": "c923e4cd-5c6d-403a-86fc-86b44694024d",
+            "LoudnessScore": [
+                84,
+                83.76,
+                83.64,
+                82.34,
+                77.05,
+                86.56,
+                86.46,
+                83.57,
+                80.83,
+                78.47,
+                79.57,
+                77.9
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 71985,
+            "Content": "It's like hm.",
+            "EndOffsetMillis": 80765,
+            "Id": "91555b2f-222d-449d-9306-5c448a1b9d28",
+            "LoudnessScore": [
+                65.15,
+                66.56,
+                67.1,
+                66.87,
+                75.68,
+                70.9,
+                75.89,
+                70.22,
+                72.12,
+                72.99
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 79565,
+            "Content": "Um, they really just have to adjust it to include the call summarization and then they, they'll have two choices, whether it's um, you know, real time or, or, or um just post analytics.",
+            "EndOffsetMillis": 92165,
+            "Id": "bacd94c4-fec3-4903-92ec-c8edd8314976",
+            "LoudnessScore": [
+                83.32,
+                83.69,
+                81.52,
+                80.64,
+                77.04,
+                81.98,
+                82.05,
+                80.79,
+                77.52,
+                84,
+                76.98,
+                79.88,
+                78.95,
+                75.63
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 85525,
+            "Content": "Oh.",
+            "EndOffsetMillis": 85535,
+            "Id": "c237484a-26e2-48d3-a376-3645fc4a4b8e",
+            "LoudnessScore": [
+                74.97
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 91175,
+            "Content": "I guess.",
+            "EndOffsetMillis": 91195,
+            "Id": "39d84528-492f-4b70-b661-429bbb4b4414",
+            "LoudnessScore": [
+                74.22
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 92845,
+            "Content": "I think for the use case to make any sense.",
+            "EndOffsetMillis": 95575,
+            "Id": "69599143-d13e-4391-ac9f-8d84868fad1a",
+            "LoudnessScore": [
+                75.63,
+                84.31,
+                83.06,
+                79.44
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 93445,
+            "Content": "That's.",
+            "EndOffsetMillis": 93475,
+            "Id": "6b286dab-3145-495c-8fa3-cd73cedbb103",
+            "LoudnessScore": [
+                78.41
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 95905,
+            "Content": "You really want a real time.",
+            "EndOffsetMillis": 97515,
+            "Id": "af5c505e-4e9f-4abe-8b65-ee5f6ad06c36",
+            "LoudnessScore": [
+                79.44,
+                84.75,
+                81.83
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 96635,
+            "Content": "not",
+            "EndOffsetMillis": 96645,
+            "Id": "f09a49e6-5f00-498e-b549-36dc05b083f0",
+            "LoudnessScore": [
+                75.69
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 97955,
+            "Content": "Because you want that summary to be very quick when the call finishes.",
+            "EndOffsetMillis": 102195,
+            "Id": "81334fa9-d78b-4b18-bb15-769fe7ced4ed",
+            "LoudnessScore": [
+                81.83,
+                82.66,
+                82.3,
+                79.03,
+                77.19,
+                72.31
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 98465,
+            "Content": "You can.",
+            "EndOffsetMillis": 98485,
+            "Id": "fec5cefc-5494-4f16-b8a8-e5e22411d948",
+            "LoudnessScore": [
+                80.22
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 101495,
+            "Content": "OK. I don't know. So I think we need to understand a little bit, so currently, how are they doing the summarization? Is there a need for summarization?",
+            "EndOffsetMillis": 112205,
+            "Id": "ccd32702-6046-4a64-af7e-cac52094da5f",
+            "LoudnessScore": [
+                77.39,
+                76.47,
+                76.6,
+                79.24,
+                87.86,
+                87.18,
+                87.4,
+                86.5,
+                85.19,
+                82.27,
+                82.47,
+                82.43
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 112525,
+            "Content": "So, at the moment,",
+            "EndOffsetMillis": 113845,
+            "Id": "c30c765d-b000-476a-b653-e09a13b687dd",
+            "LoudnessScore": [
+                86.44,
+                84.78
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 112655,
+            "Content": "And then how are they doing it and what time, how much time it takes.",
+            "EndOffsetMillis": 116355,
+            "Id": "0a262bcb-eb2d-4382-833e-09ed7aeea492",
+            "LoudnessScore": [
+                82.43,
+                85.49,
+                83.74,
+                83.5,
+                79.27
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 116565,
+            "Content": "Yes, at the moment, I don't believe they are doing it. So I know they're not doing it for the POC and it's not something they asked for in the POC.",
+            "EndOffsetMillis": 124475,
+            "Id": "07e18abc-e1de-4f6c-9cb4-a2c773d00868",
+            "LoudnessScore": [
+                80.73,
+                82.46,
+                80.34,
+                82.27,
+                81.53,
+                78.42,
+                79.04,
+                77.49,
+                65.45
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEGATIVE"
+        },
+        {
+            "BeginOffsetMillis": 116805,
+            "Content": "Uh",
+            "EndOffsetMillis": 117195,
+            "Id": "4cead308-6d18-42a0-a9d4-c7ca67dfe001",
+            "LoudnessScore": [
+                79.27,
+                71.38
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 123425,
+            "Content": "It",
+            "EndOffsetMillis": 123435,
+            "Id": "83539cd8-00fb-4d7a-884c-2090710ca751",
+            "LoudnessScore": [
+                75.16
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 125465,
+            "Content": "for that.",
+            "EndOffsetMillis": 125485,
+            "Id": "75402e15-5b24-4dcb-b44a-822ce3ce6759",
+            "LoudnessScore": [
+                70.05
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 127135,
+            "Content": "No, no, Robert, forget about BOC. I'm saying as a process, are they doing the summarization.",
+            "EndOffsetMillis": 132105,
+            "Id": "e8d6f004-44f3-4cc6-99f9-7b87ce0f864d",
+            "LoudnessScore": [
+                85.87,
+                86.01,
+                83.71,
+                83.99,
+                82.67,
+                69.9
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 132245,
+            "Content": "Oh, OK, I, that I don't know. I'll have to speak to Chris to find out.",
+            "EndOffsetMillis": 136435,
+            "Id": "be704120-a3bb-4901-b2e6-9daf1b6eb253",
+            "LoudnessScore": [
+                87.92,
+                85.25,
+                83.41,
+                78.93,
+                75.14
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 139125,
+            "Content": "Mhm",
+            "EndOffsetMillis": 139735,
+            "Id": "e85d91d9-7ce3-4aee-a814-5f003388c0d5",
+            "LoudnessScore": [
+                70.89
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 140415,
+            "Content": "Really",
+            "EndOffsetMillis": 140425,
+            "Id": "1cf7d8c0-f7b8-4c24-8796-ea4635be281e",
+            "LoudnessScore": [
+                79.22
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 141925,
+            "Content": "So I don't know if they're doing that.",
+            "EndOffsetMillis": 143395,
+            "Id": "22246173-c8cb-4f53-9f55-7f6db46eb994",
+            "LoudnessScore": [
+                77.02,
+                81.94,
+                80.69
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 142485,
+            "Content": "I mean, without giving what we want to do as a background, is there a possibility to understand?",
+            "EndOffsetMillis": 148675,
+            "Id": "debbcf90-c702-4fe4-9ae7-d928f8309bc9",
+            "LoudnessScore": [
+                86.4,
+                86.38,
+                85.45,
+                85.04,
+                86.13,
+                83.99,
+                81.26
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 149205,
+            "Content": "You know what they're doing.",
+            "EndOffsetMillis": 150855,
+            "Id": "0c13b457-b760-45da-b799-f9a6da1d3e68",
+            "LoudnessScore": [
+                87.45,
+                84.13
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 151325,
+            "Content": "Today. But",
+            "EndOffsetMillis": 152585,
+            "Id": "18500967-1580-4ac4-a8d2-56bfe3158f5a",
+            "LoudnessScore": [
+                81.05,
+                72.28
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 152915,
+            "Content": "I think there is. I wasn't involved in the the initial discussions with them. So really all my discussions now are all around the POC so there's nothing to stop me from reaching out to Chris, um, from DHL to find out how we can, you know, include some of this stuff in, and potentially show them.",
+            "EndOffsetMillis": 173315,
+            "Id": "3c8eea5a-d52c-4540-a432-4383ad9460c3",
+            "LoudnessScore": [
+                80.5,
+                83.38,
+                80.94,
+                81.75,
+                80.18,
+                78.53,
+                84.08,
+                83.79,
+                80.41,
+                79.22,
+                81.45,
+                81.88,
+                80.24,
+                78.45,
+                80.06,
+                84.08,
+                79.12,
+                83.51,
+                82.08,
+                78.63,
+                79.82,
+                48.29
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 161555,
+            "Content": "Yeah, but we look at this.",
+            "EndOffsetMillis": 162925,
+            "Id": "9799df43-dcab-459c-a89c-e092c81080de",
+            "LoudnessScore": [
+                77.26,
+                80.47
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 167045,
+            "Content": "Mhm.",
+            "EndOffsetMillis": 167055,
+            "Id": "69ba1881-4359-42be-9a05-5716fb2044d8",
+            "LoudnessScore": [
+                77.7
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 172705,
+            "Content": "No, no, no, no, no, no, no, no.",
+            "EndOffsetMillis": 174525,
+            "Id": "978bde3a-f670-480d-b82d-c0664e83a208",
+            "LoudnessScore": [
+                83.11,
+                84.05,
+                75.12
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEGATIVE"
+        },
+        {
+            "BeginOffsetMillis": 174965,
+            "Content": "No, no, so I think we need to approach in a different way so I think we need to work smartly understand.",
+            "EndOffsetMillis": 182435,
+            "Id": "b4cf416b-172b-48d9-b94d-1a20c53426fc",
+            "LoudnessScore": [
+                75.12,
+                81.67,
+                84.72,
+                84.87,
+                83.45,
+                84.71,
+                84.76,
+                82.49,
+                79.69
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 178935,
+            "Content": "OK.",
+            "EndOffsetMillis": 179645,
+            "Id": "14c83f31-5f65-4748-8783-721b1bbf359e",
+            "LoudnessScore": [
+                71.51,
+                74.98
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 182685,
+            "Content": "Are they doing it today, uh, and what is their average time spent on summarization.",
+            "EndOffsetMillis": 189495,
+            "Id": "340dd5e6-58f2-4705-b775-4e3d24259437",
+            "LoudnessScore": [
+                79.69,
+                80.25,
+                81.96,
+                85.33,
+                85.22,
+                81.89,
+                80.66,
+                80.31
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 189605,
+            "Content": "Yes, yes, yes. That would make sense.",
+            "EndOffsetMillis": 192865,
+            "Id": "2c8d5b88-9ac2-4f36-a193-d2e11697358e",
+            "LoudnessScore": [
+                80.32,
+                78.27,
+                79.1,
+                81.55
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 192245,
+            "Content": "Without proposing we want to do this, uh, you know, uh, you know.",
+            "EndOffsetMillis": 197195,
+            "Id": "4c36456f-a364-4787-a439-a72d3707b29e",
+            "LoudnessScore": [
+                86.25,
+                85.68,
+                85.98,
+                81.73,
+                79.91,
+                82.79
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 197685,
+            "Content": "Or we would like to explore this or nothing of that sort. So but I just want to understand it.",
+            "EndOffsetMillis": 202545,
+            "Id": "08b31d3b-f14e-4b23-abea-1be8d04c19d2",
+            "LoudnessScore": [
+                82.79,
+                84.04,
+                84.26,
+                84.47,
+                82.47,
+                77.44
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 203215,
+            "Content": "OK, and unfortunately, because I didn't know the customer before the POC started, all my interactions with them have been around the PFC.",
+            "EndOffsetMillis": 210655,
+            "Id": "5ad21100-275f-46fa-8e17-1e5200642e1c",
+            "LoudnessScore": [
+                86.11,
+                84.87,
+                81.51,
+                78.13,
+                83.39,
+                82.26,
+                78.51,
+                75.78
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 206935,
+            "Content": "Mm",
+            "EndOffsetMillis": 206945,
+            "Id": "d5364059-14af-4cf7-8764-711630125eb0",
+            "LoudnessScore": [
+                51.47
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 212855,
+            "Content": "Yeah.",
+            "EndOffsetMillis": 212865,
+            "Id": "0f8e3c0e-6701-4b2e-8e9e-a4008a1b4fc3",
+            "LoudnessScore": [
+                63.53
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 218645,
+            "Content": "Understand. Um, OK, so maybe I think it, this is something Praveer said he will check, right?",
+            "EndOffsetMillis": 224415,
+            "Id": "e3dd4214-aed5-43c6-815e-da474f695a0b",
+            "LoudnessScore": [
+                0,
+                81.98,
+                86.63,
+                84.84,
+                85.77,
+                83.71,
+                78.19
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 224485,
+            "Content": "Yes, I think so, yeah.",
+            "EndOffsetMillis": 225995,
+            "Id": "268358a5-38e3-4108-853f-43262c977cf6",
+            "LoudnessScore": [
+                83.25,
+                81.78
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 224805,
+            "Content": "Uh, so let him come back. OK.",
+            "EndOffsetMillis": 228005,
+            "Id": "3df91799-8a6d-423f-8916-15384bd59982",
+            "LoudnessScore": [
+                78.19,
+                84.73,
+                80.53,
+                76.8,
+                86.74
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 226535,
+            "Content": "Yeah.",
+            "EndOffsetMillis": 227175,
+            "Id": "e34706af-bb68-41ec-8e3a-30513f699f5f",
+            "LoudnessScore": [
+                78.24,
+                76.22
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 228515,
+            "Content": "So when you say the they already have a contact lens, um, this is the technology that we wanna use for summarization, is that correct?",
+            "EndOffsetMillis": 237965,
+            "Id": "5a7143ee-4995-44ac-a944-663ee3a2d86c",
+            "LoudnessScore": [
+                86.74,
+                84.48,
+                86.07,
+                84.25,
+                77.31,
+                80.12,
+                85.13,
+                85,
+                80.38,
+                78.7
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 228605,
+            "Content": "And that",
+            "EndOffsetMillis": 229405,
+            "Id": "35d15216-7e08-4e69-899b-602cb826a752",
+            "LoudnessScore": [
+                82.19,
+                80.24
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 232985,
+            "Content": "Yes.",
+            "EndOffsetMillis": 233635,
+            "Id": "aa7a82f5-6cd4-4d74-856a-41235e227598",
+            "LoudnessScore": [
+                78.61,
+                79.26
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 238095,
+            "Content": "Well, this is one of the potential summarizations, um, technologies that we've got there. So what does that really mean for us? Um, so if we're using the Amazon Connect out of the box summarization, the only value that we're adding is gonna be that CRM integration.",
+            "EndOffsetMillis": 254805,
+            "Id": "338cbe94-d464-4928-91a0-5154219a5e94",
+            "LoudnessScore": [
+                83.18,
+                80.93,
+                80.22,
+                79.92,
+                78.07,
+                77.44,
+                81.79,
+                81.28,
+                78.48,
+                81.44,
+                81.53,
+                80.55,
+                82.58,
+                82.4,
+                83.05,
+                82.05,
+                74.32
+            ],
+            "OutcomesDetected": [
+                {
+                    "CharacterOffsets": {
+                        "BeginOffsetChar": 135,
+                        "EndOffsetChar": 264
+                    },
+                    "Text": "if we're using the Amazon Connect out of the box summarization, the only value that we're adding is gonna be that CRM integration"
+                }
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 248745,
+            "Content": "Mm",
+            "EndOffsetMillis": 249215,
+            "Id": "e6af376c-9214-4935-8ffc-7f5a67701ec8",
+            "LoudnessScore": [
+                75.22,
+                71.26
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 251065,
+            "Content": "your new mm.",
+            "EndOffsetMillis": 253315,
+            "Id": "e86359ef-5e66-41eb-9d69-95663f34b016",
+            "LoudnessScore": [
+                79.04,
+                78.92,
+                77
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 255015,
+            "Content": "Yeah, you need a dynamic.",
+            "EndOffsetMillis": 256904,
+            "Id": "2573767e-ab05-4221-8bed-0b0d0d2f3228",
+            "LoudnessScore": [
+                78.95,
+                77.45
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 256325,
+            "Content": "Now, if they find that the um the summarization isn't as accurate as they would like, then we would look to use like a hugging face, um.",
+            "EndOffsetMillis": 267275,
+            "Id": "95306287-3906-4efb-9900-0efd85d4cc43",
+            "LoudnessScore": [
+                81.89,
+                81.84,
+                81.88,
+                80.85,
+                82.19,
+                78.76,
+                81.31,
+                85.33,
+                84.95,
+                81.04,
+                78.4,
+                79.95
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 267825,
+            "Content": "OK. The day from your from from so.",
+            "EndOffsetMillis": 270695,
+            "Id": "2c3eaae2-3199-4a95-a76c-71d8b13d453c",
+            "LoudnessScore": [
+                42.4,
+                81.19,
+                81.19,
+                79.12
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 267895,
+            "Content": "Model in bedrock or something and then generate that using, using the AWS services.",
+            "EndOffsetMillis": 274435,
+            "Id": "a6a2cf54-d21b-467f-9eb6-b3f34b19bbcf",
+            "LoudnessScore": [
+                79.95,
+                81.42,
+                80.08,
+                82.28,
+                81.73,
+                81.8,
+                79.02,
+                0
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 278305,
+            "Content": "OK but if they already have a contact lens, uh, and then it can do the summarization.",
+            "EndOffsetMillis": 284715,
+            "Id": "3807b155-e581-496b-96a3-228f754f0662",
+            "LoudnessScore": [
+                84.73,
+                89.13,
+                88.45,
+                81.66,
+                85.57,
+                84.23,
+                80.63
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 278405,
+            "Content": "But",
+            "EndOffsetMillis": 279215,
+            "Id": "79c58a13-9726-4449-bcd3-1aee2c2086ad",
+            "LoudnessScore": [
+                77.3,
+                83.32
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 279435,
+            "Content": "The first we did the first call that I sent to you.",
+            "EndOffsetMillis": 282975,
+            "Id": "e187e30e-b245-495f-af47-840e3d97942a",
+            "LoudnessScore": [
+                83.32,
+                82.65,
+                83.7,
+                81.36
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 285495,
+            "Content": "You can see a good uh so.",
+            "EndOffsetMillis": 288415,
+            "Id": "268bcd8a-a1af-4030-9cdc-fcfb7c46869c",
+            "LoudnessScore": [
+                77.83,
+                82.39,
+                85.16,
+                85.64
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 287345,
+            "Content": "So the first",
+            "EndOffsetMillis": 288335,
+            "Id": "2e967ce0-e69c-4705-95b7-dba1d18e16fb",
+            "LoudnessScore": [
+                81.16,
+                78.2
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 290605,
+            "Content": "Go ahead first.",
+            "EndOffsetMillis": 291125,
+            "Id": "fc0f3deb-f705-4347-af64-71d801bb8923",
+            "LoudnessScore": [
+                81.66,
+                73.71
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 291205,
+            "Content": "I, I was gonna say that the, the summarization I sent to you in the call in the in the screenshot, um, I basically called my broker, um, in the the US to find out about the tax. And the summarization was pretty accurate.",
+            "EndOffsetMillis": 306035,
+            "Id": "1511e8df-0e25-4277-b2e4-eeb21e9aa319",
+            "LoudnessScore": [
+                87.6,
+                86,
+                86.68,
+                84.7,
+                83.65,
+                81.26,
+                79.46,
+                81.05,
+                86.02,
+                83.05,
+                82.14,
+                83.91,
+                79.51,
+                87.27,
+                85.39,
+                75.18
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 299515,
+            "Content": "Mm",
+            "EndOffsetMillis": 300125,
+            "Id": "93182fbc-6f7c-4293-bc5f-9319e4ab2a7e",
+            "LoudnessScore": [
+                77.58,
+                42.33
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 305535,
+            "Content": "Mm",
+            "EndOffsetMillis": 306395,
+            "Id": "9bb0e61e-419a-4d48-8446-c9475904d001",
+            "LoudnessScore": [
+                82.36,
+                80.88
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 308095,
+            "Content": "Mm",
+            "EndOffsetMillis": 308775,
+            "Id": "4a5c56c2-5b19-4cf9-b5d8-3260bd404e1d",
+            "LoudnessScore": [
+                82.02
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 309285,
+            "Content": "Yeah.",
+            "EndOffsetMillis": 309875,
+            "Id": "c17037cf-29c6-4f10-ae60-b9523c75dc99",
+            "LoudnessScore": [
+                74.87
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 311845,
+            "Content": "I understand it.",
+            "EndOffsetMillis": 312475,
+            "Id": "488ff735-d4ef-4214-ade9-6ed8f423eb93",
+            "LoudnessScore": [
+                75.19,
+                76.78
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 312875,
+            "Content": "Yeah, so it'll be interesting to see this is a much longer call, so it'd be interesting to see what this.",
+            "EndOffsetMillis": 318235,
+            "Id": "60998487-f75a-4d8c-8f38-9f2c3f006f65",
+            "LoudnessScore": [
+                78.93,
+                87.75,
+                84.47,
+                81.92,
+                82.37,
+                80.53,
+                76.34
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 313345,
+            "Content": "Um.",
+            "EndOffsetMillis": 314555,
+            "Id": "bdeb0c0a-b90e-472a-a1ca-b697d70e1f63",
+            "LoudnessScore": [
+                84.01,
+                83.28
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 317095,
+            "Content": "7 what what about uh Amazon.",
+            "EndOffsetMillis": 320545,
+            "Id": "bd6afb9e-3448-4ba1-ac87-b0338e2984f2",
+            "LoudnessScore": [
+                80.01,
+                87.36,
+                86.56,
+                82.95
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 320955,
+            "Content": "You right? so because one is contact lens and the second one is the queue.",
+            "EndOffsetMillis": 325135,
+            "Id": "edde8074-42fb-429f-bf01-fabfafb5ac78",
+            "LoudnessScore": [
+                82.95,
+                83.08,
+                83.25,
+                80.51,
+                81.32,
+                81.56
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 326035,
+            "Content": "So",
+            "EndOffsetMillis": 326645,
+            "Id": "c0699e6e-ef8d-40d4-a4ec-9d8c6c28c6fd",
+            "LoudnessScore": [
+                83.1
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 326055,
+            "Content": "How is the queue.",
+            "EndOffsetMillis": 326905,
+            "Id": "da1bdaa8-54cb-48bb-8c4f-bca5524e819c",
+            "LoudnessScore": [
+                86.47
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 327345,
+            "Content": "So Q is more of like a knowledge search itself. So if you think about um what I might do is I might throw a whole bunch of uh FAQs and things like that into uh S3 bucket and then index them into, into, you know, a bedrock model.",
+            "EndOffsetMillis": 345795,
+            "Id": "16ba9180-e608-43d5-ba8e-25be8fdaa20e",
+            "LoudnessScore": [
+                82.37,
+                83.53,
+                82.88,
+                79.87,
+                78.18,
+                84.34,
+                82.23,
+                81.74,
+                83.25,
+                83.09,
+                82.81,
+                80.03,
+                79.96,
+                78.03,
+                79.38,
+                83.12,
+                81.4,
+                81.16,
+                81.32
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 330155,
+            "Content": "Mm",
+            "EndOffsetMillis": 330165,
+            "Id": "f4bcdaa0-17c0-48dd-895f-f7d90989292e",
+            "LoudnessScore": [
+                65.24
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 331415,
+            "Content": "I, OK, that's good.",
+            "EndOffsetMillis": 331495,
+            "Id": "24e76884-ce30-47f4-8741-0ef3b20800fa",
+            "LoudnessScore": [
+                77.61
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 337335,
+            "Content": "Mm",
+            "EndOffsetMillis": 337345,
+            "Id": "8325f687-9a8a-486e-a725-1827e5d5758e",
+            "LoudnessScore": [
+                61.76
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 338005,
+            "Content": "Uh, then you",
+            "EndOffsetMillis": 339825,
+            "Id": "ff567716-2970-4a16-9a59-7633335be21c",
+            "LoudnessScore": [
+                76.9,
+                78.61
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 346365,
+            "Content": "And use Amazon Q to be able to augment it. So think of it like a chat GPT where they where the um cus where the agent could easily ask questions. In fact, they could even just as the person's talking, start spreading up links and, and, and, and get content for that.",
+            "EndOffsetMillis": 366485,
+            "Id": "3156be08-b646-4c64-80a6-75070605715f",
+            "LoudnessScore": [
+                83.61,
+                83.32,
+                87.24,
+                83.97,
+                81.05,
+                79.72,
+                74.58,
+                79.88,
+                80.65,
+                81.9,
+                79.02,
+                76.93,
+                83.18,
+                82.63,
+                80.65,
+                79.69,
+                83.8,
+                81.26,
+                77.48,
+                77,
+                72.35
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 347685,
+            "Content": "Mm, OK.",
+            "EndOffsetMillis": 348395,
+            "Id": "e6ec5427-0292-431a-82dc-3677fcccf6cb",
+            "LoudnessScore": [
+                71.46,
+                73.12
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 354725,
+            "Content": "OK, great. Uh anything else we need to cover?",
+            "EndOffsetMillis": 357945,
+            "Id": "e37a9682-f282-47d8-83ad-c133ebfd2ac0",
+            "LoudnessScore": [
+                72.34,
+                77.51,
+                81.06,
+                77.85
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 361825,
+            "Content": "Oh.",
+            "EndOffsetMillis": 361835,
+            "Id": "bd7ee5a2-3033-4562-b821-13e0379fa656",
+            "LoudnessScore": [
+                41.89
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 363595,
+            "Content": "Thank you so much.",
+            "EndOffsetMillis": 363635,
+            "Id": "43ac3fef-9cf5-4c05-82e6-386209e22fd1",
+            "LoudnessScore": [
+                74.14
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 367345,
+            "Content": "So, uh, the queue will not help on the summarization, you will not help on the summarization.",
+            "EndOffsetMillis": 373975,
+            "Id": "c6a29777-7e3f-4138-923d-c60752e1d617",
+            "LoudnessScore": [
+                72.51,
+                84.9,
+                83.86,
+                86.66,
+                84.59,
+                82.76,
+                81.41
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEGATIVE"
+        },
+        {
+            "BeginOffsetMillis": 368405,
+            "Content": "Which is very similar to an agent.",
+            "EndOffsetMillis": 370635,
+            "Id": "c20d95d2-9658-49e2-85cc-274cb8625519",
+            "LoudnessScore": [
+                79.84,
+                84.92,
+                84.38
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 374035,
+            "Content": "2 is not really a summarization thing so I would use, I would probably use, um, bedrock for that.",
+            "EndOffsetMillis": 380405,
+            "Id": "d0020b27-fc63-4936-ab5b-4f6d633b2ea6",
+            "LoudnessScore": [
+                85.23,
+                84,
+                84.38,
+                84.96,
+                81.11,
+                79.04,
+                80.45
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 375445,
+            "Content": "Well",
+            "EndOffsetMillis": 375455,
+            "Id": "0cda1d12-821d-4a90-9c89-df33fca374cc",
+            "LoudnessScore": [
+                61.98
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 380965,
+            "Content": "And it's just an API call, so I've done some tests with that, and it really is. I, I'll send a transcript.",
+            "EndOffsetMillis": 387635,
+            "Id": "f35b9595-8242-43a7-bd63-8b98b0b83299",
+            "LoudnessScore": [
+                80.45,
+                82.84,
+                80.48,
+                81.42,
+                76.94,
+                87.3,
+                81.23,
+                76.77
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 382245,
+            "Content": "I see, I see.",
+            "EndOffsetMillis": 383645,
+            "Id": "2d669b65-0dd8-4fe0-9193-c4581487dd16",
+            "LoudnessScore": [
+                75.42,
+                67.93
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 388085,
+            "Content": "To, to the, to the, to the, to the engine and I could load different different speech recognition, uh, LLMs, so I could use a hugging face multi multi-language one. I could use a single language one. there's that sea lion which is all the South um Southeast Asia languages, so it has Thai and has",
+            "EndOffsetMillis": 410035,
+            "Id": "c3b23e1d-ac5c-4f12-abf2-2ca979f99db2",
+            "LoudnessScore": [
+                85.83,
+                75.69,
+                78.89,
+                80.56,
+                87.02,
+                83.56,
+                82.39,
+                78.39,
+                78.05,
+                84.05,
+                81.97,
+                79.52,
+                79.42,
+                78.81,
+                77.99,
+                82.73,
+                83.14,
+                80.98,
+                78.35,
+                79.73,
+                80.4,
+                80.1,
+                81.55
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 389225,
+            "Content": "Mm.",
+            "EndOffsetMillis": 389665,
+            "Id": "e7f21d08-2e32-47f1-a4e3-93a10c5ac4d6",
+            "LoudnessScore": [
+                78.6
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 397105,
+            "Content": "So because we had.",
+            "EndOffsetMillis": 402365,
+            "Id": "de744bd4-c177-415e-8d49-c3c46c56cf33",
+            "LoudnessScore": [
+                71.67,
+                67.86,
+                65.49,
+                63.34,
+                63.5,
+                64.31
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 403965,
+            "Content": "I",
+            "EndOffsetMillis": 404385,
+            "Id": "05303a65-7f21-4bfc-b5dd-64ce88249fbb",
+            "LoudnessScore": [
+                61.8,
+                68.89
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 405525,
+            "Content": "So I say to you.",
+            "EndOffsetMillis": 405685,
+            "Id": "c2e816e1-e458-43af-8c5b-4c4c1eaf3b43",
+            "LoudnessScore": [
+                68.79
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 410385,
+            "Content": "Um, Bahasa and has, you know, Filipino, um.",
+            "EndOffsetMillis": 414655,
+            "Id": "d1ca9faa-9a82-4b66-a419-037256509e91",
+            "LoudnessScore": [
+                81.55,
+                79.16,
+                78.25,
+                78.78,
+                79.68
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 411365,
+            "Content": "I, I you.",
+            "EndOffsetMillis": 411975,
+            "Id": "b8a3e96b-83c6-4215-9bfd-38218dad1028",
+            "LoudnessScore": [
+                61.46
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 414965,
+            "Content": "In it and, and it also includes Singlish. Now that's great.",
+            "EndOffsetMillis": 419235,
+            "Id": "e8a02539-25fc-4876-9f5c-aa144cc2cbbb",
+            "LoudnessScore": [
+                79.68,
+                86.76,
+                85.93,
+                85.72,
+                86.41,
+                86.38
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 418805,
+            "Content": "I thought it may I just very busy, uh.",
+            "EndOffsetMillis": 420835,
+            "Id": "14d7a2c2-8675-45e9-8011-4effd46f71c5",
+            "LoudnessScore": [
+                84.78,
+                84.6,
+                78.73
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 419625,
+            "Content": "But that also requires that the transcript is going to be accurate.",
+            "EndOffsetMillis": 424415,
+            "Id": "e68fb007-6971-498e-a9d8-b4b6d8c59bb5",
+            "LoudnessScore": [
+                86.38,
+                86.01,
+                84.06,
+                81.73,
+                79.34,
+                68.11
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 425275,
+            "Content": "So that's, that's where I think.",
+            "EndOffsetMillis": 427375,
+            "Id": "04940bdf-4500-40f5-a0b0-077bf346c3cd",
+            "LoudnessScore": [
+                81.31,
+                80.67,
+                null
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 427795,
+            "Content": "You know, you might find some things will fall down a bit.",
+            "EndOffsetMillis": 430615,
+            "Id": "5b26bd94-8ea2-48ba-96f4-49bce786f480",
+            "LoudnessScore": [
+                null,
+                84.33,
+                79.18,
+                73.86
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 432585,
+            "Content": "Which one's transcript is uh not accurate?",
+            "EndOffsetMillis": 435455,
+            "Id": "ffbb4dad-5235-421c-9ed5-e0712cb2cdc1",
+            "LoudnessScore": [
+                81.65,
+                82.77,
+                82.07,
+                80.47
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEGATIVE"
+        },
+        {
+            "BeginOffsetMillis": 432605,
+            "Content": "So",
+            "EndOffsetMillis": 433255,
+            "Id": "6d3c2cc5-3e78-4740-9d87-92f564274c4b",
+            "LoudnessScore": [
+                80.39,
+                79.48
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 435685,
+            "Content": "So if the transcript is not accurate, so for instance, right now, uh, if we take a look at uh out of the box, tie the tha tan transcript wouldn't be sort of supported, so we'd have to go to another model to get that transcript. So we grabbed that recording and then do the transcript of that, and that would require us creating a time model. If Tai was, you know, if we're looking at.",
+            "EndOffsetMillis": 459715,
+            "Id": "77ce0068-3244-4095-9366-9b9422eb935a",
+            "LoudnessScore": [
+                82.31,
+                81.89,
+                80.31,
+                80.98,
+                81.39,
+                83.06,
+                83.29,
+                83.9,
+                83.29,
+                78.3,
+                78.72,
+                81.93,
+                80.2,
+                79.88,
+                75.35,
+                85.79,
+                83.98,
+                82.13,
+                79.36,
+                82.39,
+                80.45,
+                76.8,
+                78.96,
+                81.95,
+                85.7
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 451545,
+            "Content": "Mm.",
+            "EndOffsetMillis": 452255,
+            "Id": "bca816a7-c70a-4999-95d6-70fc5b04873b",
+            "LoudnessScore": [
+                86.7,
+                82.13
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 457015,
+            "Content": "So that is for what summarization sorry that is for summarization or for the agent assist.",
+            "EndOffsetMillis": 465205,
+            "Id": "ac6ce0cf-7a1e-43a9-86a8-95201f149422",
+            "LoudnessScore": [
+                78.38,
+                79.83,
+                89.93,
+                87.81,
+                82.58,
+                82.66,
+                81.98,
+                79.97,
+                58.6
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 464275,
+            "Content": "For the, that's for the transcript.",
+            "EndOffsetMillis": 467095,
+            "Id": "07aae152-6f16-4c6e-840e-ceb7f2690f94",
+            "LoudnessScore": [
+                83.09,
+                82.93,
+                81.9,
+                57.32
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 466875,
+            "Content": "It",
+            "EndOffsetMillis": 466885,
+            "Id": "b895e94e-8ba4-4b1e-8365-2eb8b82b8b73",
+            "LoudnessScore": [
+                42.57
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 468145,
+            "Content": "So that would be for summarization. so transcribe it first, then let's get a summarization of that transcription.",
+            "EndOffsetMillis": 474645,
+            "Id": "81afdf5f-171d-4836-a7bd-a58f9feb6229",
+            "LoudnessScore": [
+                84.98,
+                85.57,
+                80.63,
+                81.69,
+                80.93,
+                75.63,
+                70.46
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 476245,
+            "Content": "Mm, yeah, yeah, OK.",
+            "EndOffsetMillis": 477625,
+            "Id": "8e0df756-d8a3-4310-89e0-07babcdd5154",
+            "LoudnessScore": [
+                76.12,
+                75.66
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 478245,
+            "Content": "Yeah, yeah, yeah. So really, if you think about it.",
+            "EndOffsetMillis": 480955,
+            "Id": "92391c37-8b8d-4787-a7a9-03b70dd4d474",
+            "LoudnessScore": [
+                81.65,
+                86.79,
+                86.43
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 480145,
+            "Content": "So what you're saying then is, you know, if this contact lenses accurate enough, then we can just",
+            "EndOffsetMillis": 487225,
+            "Id": "3b395ae1-9a5d-47bb-8aa9-72225c553952",
+            "LoudnessScore": [
+                89.88,
+                86.72,
+                83.5,
+                81.8,
+                82.94,
+                82.42,
+                81.94,
+                83.69
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 487755,
+            "Content": "Use the contact lens, but if, if this is not accurate, then probably we need to use some sort of a bedrock and custom model.",
+            "EndOffsetMillis": 495075,
+            "Id": "e3afb632-93ce-4ab2-af59-891f17a946cd",
+            "LoudnessScore": [
+                83.69,
+                83.5,
+                78.73,
+                86.8,
+                85.79,
+                84.52,
+                85.53,
+                84.88,
+                76.56
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 495445,
+            "Content": "That's exactly correct.",
+            "EndOffsetMillis": 496895,
+            "Id": "cde90d5d-92c7-4fa7-9e4d-993f21fdd702",
+            "LoudnessScore": [
+                78.81,
+                78.19
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 498285,
+            "Content": "And the summarization is going to come out of whatever they transcript looks like. So we would need an accurate transcript to get an accurate summary.",
+            "EndOffsetMillis": 509175,
+            "Id": "a606ae8e-9efa-4c5f-865e-96bf051908cc",
+            "LoudnessScore": [
+                79.28,
+                83.71,
+                81.26,
+                81.59,
+                81,
+                76.61,
+                77.19,
+                85.2,
+                82.19,
+                76.61,
+                76.21,
+                37.48
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 501205,
+            "Content": "First of all, I think we need any and I think we can we can from from my end.",
+            "EndOffsetMillis": 508395,
+            "Id": "6858aa9b-a24e-4de5-8196-220f07fda314",
+            "LoudnessScore": [
+                75.96,
+                73.6,
+                68.79,
+                70.92,
+                74.72,
+                72.5,
+                77.42,
+                75.54
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 510005,
+            "Content": "And so, uh, the transcription, um,",
+            "EndOffsetMillis": 514325,
+            "Id": "e9339e35-7faa-4b98-950e-f1d9a184c653",
+            "LoudnessScore": [
+                80.68,
+                88.63,
+                86.71,
+                85.53,
+                65.63
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 515174,
+            "Content": "Is it already done in Amazon connect or uh or you need to wait uh see if it is accurate enough so.",
+            "EndOffsetMillis": 523635,
+            "Id": "05210e3d-a139-4140-a9d9-9ad00660fe3d",
+            "LoudnessScore": [
+                83.3,
+                83.93,
+                82.61,
+                83.11,
+                82.15,
+                84.26,
+                80.83,
+                81.77,
+                81.56
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 519355,
+            "Content": "So it",
+            "EndOffsetMillis": 520174,
+            "Id": "7ace9adc-290e-4727-8025-b8026558b8f1",
+            "LoudnessScore": [
+                83.66,
+                81.42
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 521365,
+            "Content": "If, if, so",
+            "EndOffsetMillis": 522674,
+            "Id": "6a06351b-faf7-4a10-b22a-ac49969bb5b0",
+            "LoudnessScore": [
+                82.49,
+                81.03
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 523725,
+            "Content": "So yeah, you, you, um, we need to take a look and vet that it's accurate enough.",
+            "EndOffsetMillis": 528735,
+            "Id": "16ae4057-bc65-4017-8ded-af9e7dea9682",
+            "LoudnessScore": [
+                80.74,
+                83.26,
+                80.77,
+                81.88,
+                80.33,
+                76.02
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 529185,
+            "Content": "Um, it, it'll be very accurate for my voice, for instance, because it's trained on American style voices. So it really comes down to the Singlish and then comes down to the Mandarin, um, and other languages that they'll be speaking.",
+            "EndOffsetMillis": 543935,
+            "Id": "4d8f60c0-1206-4496-a009-6ba98fa615dc",
+            "LoudnessScore": [
+                81.13,
+                87.32,
+                83.73,
+                77.79,
+                79.56,
+                78.19,
+                77.43,
+                80.95,
+                80.53,
+                78.48,
+                80.85,
+                79.87,
+                80.06,
+                80.16,
+                73.33
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 544495,
+            "Content": "So I'd be very confident on the, on the US style of English, and you've got multiple languages that you can select, but yeah, we would have to do some sample testing.",
+            "EndOffsetMillis": 555625,
+            "Id": "829e80e1-d76c-4cf1-aaac-84ca3851e7a4",
+            "LoudnessScore": [
+                80.25,
+                82.87,
+                79.11,
+                84.87,
+                81.25,
+                89.04,
+                88.1,
+                78.91,
+                81.88,
+                86.12,
+                85,
+                76.26
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 546845,
+            "Content": "Not for you.",
+            "EndOffsetMillis": 547345,
+            "Id": "8e363829-939d-4e01-b1c6-935020a7aa3b",
+            "LoudnessScore": [
+                67.79,
+                72.69
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEGATIVE"
+        },
+        {
+            "BeginOffsetMillis": 553515,
+            "Content": "I don't, it hasn't really only be paying for.",
+            "EndOffsetMillis": 554725,
+            "Id": "ebc2f2cd-51cf-4e42-bd5c-dc4d592ea495",
+            "LoudnessScore": [
+                78.15,
+                77.88
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 555925,
+            "Content": "And that should be easy enough for us to make some sample calls even in this instance.",
+            "EndOffsetMillis": 561405,
+            "Id": "fe96e9a2-577b-4c13-a8c4-9e912862e9dd",
+            "LoudnessScore": [
+                76.26,
+                83.36,
+                85.83,
+                79.68,
+                81.94,
+                81.36,
+                79.78
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 558245,
+            "Content": "Some, you know. Yeah. So, I don't we, we do have some.",
+            "EndOffsetMillis": 564955,
+            "Id": "b6a2cc3a-3eb6-442f-b7fa-ca9900540e6b",
+            "LoudnessScore": [
+                73.26,
+                65.82,
+                70.86,
+                79.99,
+                80.56,
+                80.75,
+                80.05
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 561965,
+            "Content": "Where, uh, I'm talking to somebody who's Singlish or whatever.",
+            "EndOffsetMillis": 565575,
+            "Id": "533cf62b-3985-4713-aed4-582f11f04a2a",
+            "LoudnessScore": [
+                79.78,
+                81.1,
+                79.05,
+                76.22,
+                74.4
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 565225,
+            "Content": "I'm DS. OK, OK, so I think we need to create a C, you know, create an approach if, uh, you know, this English is gonna work out. What is the accuracy? If not, then how do we do it? So I think we need to have that kind of an up approach to make it uh robust enough to put it in a production environment, but how do we integrate?",
+            "EndOffsetMillis": 595065,
+            "Id": "e225ebe9-aef7-4add-80a2-f404a507b438",
+            "LoudnessScore": [
+                82.17,
+                79.3,
+                81.97,
+                80.04,
+                78.74,
+                81.91,
+                85.95,
+                86.44,
+                86.41,
+                85.94,
+                82.69,
+                86.11,
+                84.93,
+                86.83,
+                85.93,
+                83.05,
+                82.35,
+                85.55,
+                82.78,
+                82.79,
+                85.1,
+                84.29,
+                80.75,
+                83.54,
+                83.5,
+                83.06,
+                79.72,
+                82.7,
+                87.28,
+                86.58,
+                82.43
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 593865,
+            "Content": "Sure, yeah.",
+            "EndOffsetMillis": 594855,
+            "Id": "2b21e614-667c-4604-8f33-6d77ab0ad693",
+            "LoudnessScore": [
+                79.6,
+                77.09
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 595185,
+            "Content": "I think uh that's the question that you have, but I think we need to work out that later, but I think first and foremost I think is to get to the approach, uh, you know, what are the couple of approaches that we wanna take, uh, to enhance the accuracy and make it production that is from a summarization and same goes for uh assist as well. You know, let's say for example, I don't know NCS, uh, what do they do, uh, you know, if they have a website, for example, right? Um, you know.",
+            "EndOffsetMillis": 625065,
+            "Id": "8eecd37a-b555-493d-9e34-2d54c38bdbe8",
+            "LoudnessScore": [
+                82.43,
+                83.64,
+                82.25,
+                83.83,
+                83.25,
+                83.11,
+                79.9,
+                83.09,
+                88,
+                84.05,
+                84.03,
+                82.82,
+                81.79,
+                86.24,
+                82.03,
+                82.31,
+                84.16,
+                84.97,
+                84.44,
+                82.13,
+                82.98,
+                82.2,
+                80.28,
+                82.56,
+                85.46,
+                84.54,
+                85.68,
+                85.48,
+                79.75,
+                80.39,
+                85.99
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 624265,
+            "Content": "Yeah.",
+            "EndOffsetMillis": 624775,
+            "Id": "2a953bf9-d2cb-44b3-ad61-992756273b22",
+            "LoudnessScore": [
+                77.57
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 625185,
+            "Content": "Can I bring all that knowledge inside that and, you know, create all the FAQs in a lot more empathetic and intelligent way, right?",
+            "EndOffsetMillis": 632295,
+            "Id": "045612b3-89cd-4e44-826b-545701bcea5e",
+            "LoudnessScore": [
+                85.99,
+                84.73,
+                81.16,
+                83.71,
+                82.33,
+                82.86,
+                83.05,
+                79.17
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 632565,
+            "Content": "Yes, and that's exactly the agent.",
+            "EndOffsetMillis": 634945,
+            "Id": "894e79c0-c130-4e9f-a981-361c3a37916a",
+            "LoudnessScore": [
+                81.4,
+                86.92,
+                83.73
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 634085,
+            "Content": "So this is, uh, you know, cancer, cancer center, so that means it's a lot of innovation, a lot of education training, a lot of videos, many, many things will be there, right? So how do we, uh, um.",
+            "EndOffsetMillis": 646205,
+            "Id": "0219e5e2-7769-422a-b342-4fbac76978fd",
+            "LoudnessScore": [
+                83.32,
+                83.65,
+                81.05,
+                87.59,
+                87.05,
+                82.68,
+                83.87,
+                83.65,
+                80.96,
+                82.99,
+                85.22,
+                79.76,
+                76.87
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 643485,
+            "Content": "Exactly.",
+            "EndOffsetMillis": 644275,
+            "Id": "88c6b996-adcf-48e1-bf78-1c6d45d468c5",
+            "LoudnessScore": [
+                79.01,
+                38.18
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 646705,
+            "Content": "Uh, probably there will be, uh, discussion on appointment and things like that or you know doctor like, uh, you know, uh maybe some details about education, some detail about knowledge of separate cancers and a few other things will be there, right? So how do we bring all that information together.",
+            "EndOffsetMillis": 665315,
+            "Id": "9afdb30b-30a5-47f3-9496-ccf8f8f4ce87",
+            "LoudnessScore": [
+                76.87,
+                85.94,
+                85.03,
+                81.85,
+                81.15,
+                82.53,
+                82.51,
+                77.68,
+                83.09,
+                82.49,
+                83.1,
+                82.76,
+                81.51,
+                79.68,
+                86.29,
+                85.54,
+                86.51,
+                86.1,
+                82.56,
+                81.15
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 665605,
+            "Content": "Uh, you know, help agent to, you know, answer in a better way, right?",
+            "EndOffsetMillis": 671355,
+            "Id": "f16b275c-3deb-4b0e-b663-c0df087fc68e",
+            "LoudnessScore": [
+                81.15,
+                85.19,
+                84.91,
+                84.94,
+                82.64,
+                82.07,
+                79.64
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 671685,
+            "Content": "Yeah.",
+            "EndOffsetMillis": 672325,
+            "Id": "7c25507d-fba2-4739-ad5b-47b61508ec54",
+            "LoudnessScore": [
+                79.64,
+                71.54
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 671765,
+            "Content": "Correct, yeah.",
+            "EndOffsetMillis": 672645,
+            "Id": "b4641f63-573d-4183-8821-f9763d24f437",
+            "LoudnessScore": [
+                84.63,
+                83.19
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 674485,
+            "Content": "And I would see part of that is going to be using the Amazon Que with the knowledge base.",
+            "EndOffsetMillis": 680575,
+            "Id": "1f07f185-69da-4faa-97bc-4cef51f50dbc",
+            "LoudnessScore": [
+                81.94,
+                82.37,
+                81.13,
+                81.36,
+                80.64,
+                79.28,
+                74.84
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 681175,
+            "Content": "And the knowledge base is really easy to keep up to date because you just throw your documents into an S3 bucket.",
+            "EndOffsetMillis": 687105,
+            "Id": "45612b27-dbce-41ce-95a3-7a24d8e1708a",
+            "LoudnessScore": [
+                81.71,
+                80.41,
+                77.11,
+                77.12,
+                80.93,
+                76.83,
+                50.51
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 688465,
+            "Content": "Um, we did, we did a small demo, um, while we're looking at SSG. So I did a small demo in one of the accounts here and threw in a bunch of security type questions.",
+            "EndOffsetMillis": 701375,
+            "Id": "85a791d8-2d32-414c-a847-8730c2d765c2",
+            "LoudnessScore": [
+                81.94,
+                83.54,
+                84.66,
+                81.46,
+                79.98,
+                82.73,
+                80.24,
+                80.33,
+                81.08,
+                80.23,
+                81.01,
+                81.64,
+                78.65,
+                80.28
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 688645,
+            "Content": "Mm, mm.",
+            "EndOffsetMillis": 689915,
+            "Id": "ee09a2ef-5e34-4893-9ca9-1ec49941fed4",
+            "LoudnessScore": [
+                79.42,
+                78.67
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 701925,
+            "Content": "Into it and I asked questions that were very specific around those documents.",
+            "EndOffsetMillis": 705995,
+            "Id": "f70a0195-af32-4f6a-8f1d-dfd00b2e96c4",
+            "LoudnessScore": [
+                80.28,
+                81.79,
+                82.69,
+                81.85,
+                80.43
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 706405,
+            "Content": "And that did work well.",
+            "EndOffsetMillis": 707835,
+            "Id": "05ae9e1a-4c3d-4e11-9121-4d9efc2aacef",
+            "LoudnessScore": [
+                86.84,
+                86.07
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 709365,
+            "Content": "Mm.",
+            "EndOffsetMillis": 710095,
+            "Id": "44cae698-fa5e-456f-ac07-12c086db5410",
+            "LoudnessScore": [
+                80.73,
+                75.39
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 711365,
+            "Content": "Now I have another meeting now at 1:30 or 2:30.",
+            "EndOffsetMillis": 715075,
+            "Id": "1ddae80b-e064-42e7-a826-0eb6d6302216",
+            "LoudnessScore": [
+                84.06,
+                84.11,
+                81.69,
+                79.22,
+                70.27
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 711575,
+            "Content": "Yeah",
+            "EndOffsetMillis": 711585,
+            "Id": "127e7f7b-53f3-4ea3-b09d-48f7039d44d8",
+            "LoudnessScore": [
+                65.19
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 714825,
+            "Content": "Yeah, same here. So, OK.",
+            "EndOffsetMillis": 716935,
+            "Id": "7e5c642a-5883-4ebf-b6a1-59f0a8919817",
+            "LoudnessScore": [
+                88.49,
+                87.67,
+                74.49
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 716225,
+            "Content": "So, I'll have to let you go.",
+            "EndOffsetMillis": 718595,
+            "Id": "44e8e871-f134-40da-95ef-4812ef350fb6",
+            "LoudnessScore": [
+                79.78,
+                82.19,
+                79.95
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 717365,
+            "Content": "Uh, so I think I need a couple of slide on uh how, how, you know, what is the approach.",
+            "EndOffsetMillis": 723175,
+            "Id": "0dfb18af-5428-400d-96a8-f87736b32b3f",
+            "LoudnessScore": [
+                86.27,
+                86.33,
+                83.83,
+                81.19,
+                81.18,
+                83.09,
+                82.92
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 723765,
+            "Content": "For a better accuracy, uh, on, on both of these use case and then and also some sort of uh effort required to do this and then uh we can take it, yeah? All right. Thank you.",
+            "EndOffsetMillis": 735975,
+            "Id": "4a7ceb23-0f48-4bf9-836f-0f1a98ef57e0",
+            "LoudnessScore": [
+                82.92,
+                83.61,
+                78.24,
+                83.42,
+                83.97,
+                82.85,
+                82.72,
+                85.28,
+                81.42,
+                82.6,
+                81.32,
+                79.12,
+                78.02
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 734645,
+            "Content": "Perfect, right? Sounds good. I'll send you the summary as soon as it comes through.",
+            "EndOffsetMillis": 738715,
+            "Id": "0d836fa1-5459-42cf-83e7-90135d5f2154",
+            "LoudnessScore": [
+                82.79,
+                81.2,
+                85,
+                85.62,
+                82.59
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 739365,
+            "Content": "Yeah, yeah, yeah.",
+            "EndOffsetMillis": 740805,
+            "Id": "9dfd64d0-b730-4752-ac80-bf0e582f08b2",
+            "LoudnessScore": [
+                86.29,
+                82.11
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        },
+        {
+            "BeginOffsetMillis": 740425,
+            "Content": "Cool. All right, thank you. Take care. Bye-bye.",
+            "EndOffsetMillis": 742815,
+            "Id": "40a56bb9-529b-4c64-909a-c95d01a82af0",
+            "LoudnessScore": [
+                83.64,
+                82.84,
+                76.73
+            ],
+            "ParticipantId": "AGENT",
+            "Sentiment": "POSITIVE"
+        },
+        {
+            "BeginOffsetMillis": 741295,
+            "Content": "Just",
+            "EndOffsetMillis": 741525,
+            "Id": "710c0799-3598-4997-844c-2d77caaf3c92",
+            "LoudnessScore": [
+                73.57
+            ],
+            "ParticipantId": "CUSTOMER",
+            "Sentiment": "NEUTRAL"
+        }
+    ],
+    "Version": "1.1.0"
+}
