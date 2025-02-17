@@ -11,7 +11,7 @@ resource "aws_iam_policy" "bedrock_invoke" {
         "Action" : [
           "bedrock:InvokeModel",
           "bedrock:InvokeModelWithResponseStream",
-          "connect":"ListRealtimeContactAnalysisSegments"
+          "connect:ListRealtimeContactAnalysisSegments"
         ],
         "Resource" : [
           "*"
