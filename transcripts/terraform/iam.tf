@@ -21,7 +21,7 @@ resource "aws_iam_policy" "bedrock_invoke" {
 }
 
 resource "aws_iam_policy" "lambda_cloudwatch" {
-  name        = "Bedrock_Invoke"
+  name        = "Cloudwatch"
   path        = "/"
   description = "Policy to allow Lambda to write to Cloudwatch on each invokation"
   policy = jsonencode({
